@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:black;
+}
+.navbar-left{
+    padding-left:30px;
+}
+.logo-image{
+    width:50px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.navbar-right{
+    padding-right:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image-right{
+    border-radius: 30%;
+    width: 300px;
+    height: 300px;
+}
+.a-element{
+    padding: 10px;
+    margin:10px;
+    text-decoration: none;
+   
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    height: 80vh;
+    border:2px solid red;
+}
+.home-left{
+    width:50vw;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right{
+    width:50vw;
+    padding-left: 200px;
+}
+.home-h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+
+}
+.home-p1{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.services{ 
+    padding:50px;
+    text-align: center; 
+}
+.ser-h1{
+    font-family:'Ubuntu', san-serif;
+    color:rgb(59, 211, 59);
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.services-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-card{
+    border:2px rgb(47,168,47) solid;
+    margin:20px;
+    width:400px;
+    padding:10px;
+}
+.sc-h1{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 25px;
+}
+.pc-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+
+}
+.social-icon-image{
+    height:20px;
+    width:20px;
+    padding:20px;
+}
